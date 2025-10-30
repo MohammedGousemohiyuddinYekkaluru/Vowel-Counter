@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#vowel-container{
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    margin: 15px 0;
+}
+
+#textarea{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    width: 90%;
+    font-size: 1.1rem;
+}
+
+.countBtn{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.output{
+    text-align: center;
+    margin-bottom: 14px;
+}
